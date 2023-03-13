@@ -7,7 +7,7 @@ pipeline {
 
     DOCKERHUB_CREDENTIALS = credentials('Docker')
      registry = "manojannadata/backend-lms"
-        registryCredential = 'manojannadata'
+        registryCredential = 'dockerserver'
         dockerImage = ''
     }
 
